@@ -1,6 +1,6 @@
 class Solution {
     public int sumOfGoodSubsequences(int[] nums) {
-        int mod = 1_000_000_007;
+        int mod = 1_000_000_007; //10^9 +7
         int maxVal = 100_001;
 
         long[] count = new long[maxVal + 2];
